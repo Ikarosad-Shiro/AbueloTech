@@ -1,9 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.AbueloTech" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Theme.AbueloTech" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryColor</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/secondaryTextColor</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@color/primaryColor</item>
     </style>
-
-    <style name="Theme.AbueloTech" parent="Base.Theme.AbueloTech" />
 </resources>
