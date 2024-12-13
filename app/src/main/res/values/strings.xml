@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">AbueloTech</string>
+    <!-- Colores basados en el logo -->
+    <color name="primaryColor">#A4D6E9</color> <!-- Azul Pastel -->
+    <color name="secondaryTextColor">#757575</color> <!-- Gris Suave -->
+    <color name="primaryTextColor">#333333</color> <!-- Negro Suave -->
+    <color name="background_color">#FFFFFF</color> <!-- Blanco -->
+    <color name="accentColor">#F9A39F</color> <!-- Coral Claro -->
+    <color name="highlightColor">#B7D7B2</color> <!-- Verde Suave -->
+    <color name="background_color_pastel">#FFE4B5</color> <!-- Color pastel -->
+
 </resources>
