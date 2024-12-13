@@ -1,15 +1,20 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Ignorar archivos generados por Android Studio
+.idea/
+.gradle/
 local.properties
+.DS_Store
+
+# Ignorar carpetas de compilación
+/build/
+app/build/
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos específicos de sistema operativo
+Thumbs.db
+*.swp
+*.swo
+
+# No ignorar las fuentes
+!res/font/
